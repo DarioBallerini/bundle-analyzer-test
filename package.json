@@ -8,6 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "deploy": "ng deploy --base-href=/bundle-analyzer-test/",
+    "prepare": "husky install",
     "analyze-bundle": "ng build --source-map --named-chunks && node_modules/.bin/source-map-explorer dist/bundle-analyzer/*.js"
   },
   "husky": {
