@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import * as moment from 'moment';
 
 @Component({
   selector: 'app-customers',
@@ -7,8 +6,6 @@ import * as moment from 'moment';
   styleUrls: ['./customers.component.scss']
 })
 export class CustomersComponent implements OnInit {
-
-  moment = moment();
 
   constructor() { }
 
