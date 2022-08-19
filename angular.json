@@ -44,6 +44,12 @@
                   "type": "anyComponentStyle",
                   "maximumWarning": "2kb",
                   "maximumError": "4kb"
+                },
+                {
+                  "type": "bundle",
+                  "name": "customers-customers-module",
+                  "maximumWarning": "150kb",
+                  "maximumError": "200kb"
                 }
               ],
               "fileReplacements": [
